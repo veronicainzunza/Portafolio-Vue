@@ -5,9 +5,28 @@
             
             <!-- Columna texto -->
             <div class="col-12 col-md-6 p-4">
-            <p class="lead mb-0">
-                {{ descripcion }}
-            </p>
+                <p class="lead mb-0">
+                    {{ descripcion }}
+                </p>
+                <div class="d-flex gap-3 mt-3">
+                    <a 
+                        href="/cv.pdf" 
+                        download 
+                        class="btn btn-outline-dark"
+                    >
+                        <i class="bi bi-download me-2"></i>
+                        Descargar CV
+                    </a>
+                    
+                    <a 
+                        href="/certificaciones.pdf" 
+                        download 
+                        class="btn btn-outline-dark"
+                    >
+                        <i class="bi bi-download me-2"></i>
+                        Descargar Certificaciones
+                    </a>
+                </div>
             </div>
 
             <!-- Columna imagen -->
@@ -15,7 +34,7 @@
             <img 
                 :src="imagen"
                 :alt="alt"
-                class="img-fluid rounded"
+                class="img-fluid rounded imagen-bn"
             >
             </div>
 
@@ -37,3 +56,26 @@
     alt: String
     })
 </script>
+<style scoped>
+    /* .imagen-bn {
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+    }
+
+    .imagen-bn:hover {
+        filter: grayscale(0%);
+    } */
+
+    .imagen-bn {
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    }
+
+    .imagen-bn:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+</style>
+

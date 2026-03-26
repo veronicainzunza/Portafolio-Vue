@@ -1,6 +1,7 @@
 import tiempo from '../assets/img/tiempo.jpg'
 import ropa from '../assets/img/ropa.jpg'
 import pelicula from '../assets/img/pelicula.jpg'
+import postre from '../assets/img/postre_33.jpg'
 
 export const proyectos = [
 {
@@ -8,8 +9,7 @@ export const proyectos = [
     titulo: "El Tiempo",
     descripcion: "Aplicación desarrollada en Vue.",
     imagen: tiempo,
-    // link: "http://localhost:5174",
-    link: "https://veronicainzunza.github.io/app-clima-vue/",
+    link: "https://clima-vue-app.web.app",
     activo: true
 },
 {
@@ -26,6 +26,14 @@ export const proyectos = [
     descripcion: "Aplicación desarrollada con Vue y Firebase.",
     imagen: pelicula,
     link: "https://movie-app-41aef.web.app",
+    activo: true
+},
+{
+    id: 4,
+    titulo: "OnlyFlans",
+    descripcion: "Aplicación desarrollada con Python y Django.",
+    imagen: postre,
+    link: "https://onlyflans-django-app.onrender.com/web/",
     activo: true
 }
 ]

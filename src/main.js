@@ -2,13 +2,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-//css de bootstrap
+// css de bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-//css propio
-//import './assets/css/main.css'
+// iconos
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
-//js de bootstrap
+// js de bootstrap
 import 'bootstrap'
 
 createApp(App)
