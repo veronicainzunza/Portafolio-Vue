@@ -7,7 +7,7 @@ export const proyectos = [
 {
     id: 1,
     titulo: "El Tiempo",
-    descripcion: "Aplicación desarrollada en Vue.",
+    descripcion: "Aplicación desarrollada en Vue - Api.",
     imagen: tiempo,
     link: "https://clima-vue-app.web.app",
     activo: true
@@ -15,7 +15,7 @@ export const proyectos = [
 {
     id: 2,
     titulo: "E-Commerce",
-    descripcion: "Aplicación desarrollada con html, css, js",
+    descripcion: "Aplicación desarrollada con Html, Css, JS",
     imagen: ropa,
     link: "https://veronicainzunza.github.io/ecommerce-html-css-js/",
     activo: true
@@ -33,7 +33,7 @@ export const proyectos = [
     titulo: "OnlyFlans",
     descripcion: "Aplicación desarrollada con Python y Django.",
     imagen: postre,
-    link: "https://onlyflans-django-app.onrender.com/web/",
+    link: "https://onlyflans-bd-externa.onrender.com/web/",
     activo: true
 }
 ]
